@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    line-height: 1.4705882353;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #fff;
+    color: #1d1d1f;
+    font-style: normal;
+}
+nav{
+    position: fixed;
+    background-color:black;
+    color: lightgray;
+    width: 100%;
+    height: 50px;
+    font-size: 12px;
+    display: flex;
+    
+}
+nav li{
+    margin-top: 1%;
+}
+ul{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+li{
+    list-style: none;
+    margin-left: 90px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    padding-top: 40px;
+
+}
+#banner_one{
+    background-size: cover;
+    height: 90vh;
+    background-position-y: 150px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.banner > *{
+    display: flex;
+    justify-content: center;
+}
+.banner h1{
+    align-items: flex-start;
+    font-size: 40pt;
+    
+}
+.banner h2{
+    font-size: 26pt;
+    font-weight: lighter;
+}
+.banner button{
+    color: #fff;
+    border-color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.1764805882;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    min-width: 26px;
+    color: #1d1d1f;
+    background: none;
+    border: 2px solid #1d1d1f;
+    min-width: 97px;
+    padding: 10px 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    min-width: 28px;
+    padding: 8px 16px;
+    border-radius: 980px;
+    color: #fff;
+}
+
+.banner img{
+    margin-right: auto;
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    padding-top: 0%;
+    margin-left: 0px;
+    margin-top: -255px;
+   
+
+}
+h1,h2,button{
+    position: relative;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color:white;
+    border-color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+#banner_two{
+    padding-top: 475px;
+}
+#banner_two h1{
+        margin-left: -338px;
+        left: 51%;
+        top: 70px;
+        display: flex;
+        color: black;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        line-height: 1;
+        font-weight: 600;
+        letter-spacing: -0.012em;
+}
+#banner_two h2{
+    margin-left: -338px;
+    left: 52%;
+    top: 175px;
+    display: flex;
+    color: black;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 550;
+    letter-spacing: -0.012em
+}
+#banner_two img{
+    width: 100%;
+    height: fit-content;
+}
+#banner_two button{
+    color: black;
+    top: 175px;
+    left: 285px;
+}
+.banner_two_btn1:hover{
+    background-color: rgba(0, 0, 0, 0.308);
+}
+.banner_two_btn2:hover{
+    background-color:rgba(0, 0, 0, 0.308);
+}
+#banner_one button:hover{
+    background-color:rgba(236, 227, 227, 0.233);
+}
+#banner_three img{
+    width: 100%;
+    height: fit-content;
+}
+#banner_three h1{
+    margin-left: -338px;
+    left: 85%;
+    top: 160px;
+    display: flex;
+    color: white;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.012em;
+}
+#banner_three h2{
+    margin-left: -338px;
+    left: 85%;
+    top: 230px;
+    display: flex;
+    color: white;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    line-height: 1;
+    font-weight: 550;
+    letter-spacing: -0.012em
+}
+.banner_three_btn1:hover{
+    background-color:rgba(236, 227, 227, 0.233);
+}
+.banner_three_btn2:hover{
+    background-color:rgba(236, 227, 227, 0.233);
+}
+.banner_three_btn1{
+    top: 200px;
+    left: 53%;
+}
+.banner_three_btn2{
+    top: 200px;
+    left: 53%;
+}
